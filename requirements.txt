@@ -141,7 +141,7 @@ python-dateutil
 requests
 urllib3
 unstructured
-
+faiss-cpu 
 
 
 
