@@ -14,11 +14,11 @@ from logging.handlers import RotatingFileHandler
 from datetime import datetime, timedelta
 import traceback
 from langchain.globals import set_verbose
-from dotenv import load_dotenv
-# Load environment variables
-load_dotenv()
+# from dotenv import load_dotenv
+# # Load environment variables
+# load_dotenv()
 
-
+os.environ["OPENAI_API_KEY"] == st.secrets["OPENAI_API_KEY"]
 # Set up logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
