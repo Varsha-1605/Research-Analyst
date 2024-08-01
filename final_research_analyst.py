@@ -18,7 +18,7 @@ from langchain.globals import set_verbose
 # # Load environment variables
 # load_dotenv()
 
-os.environ["OPENAI_API_KEY"] == st.secrets["openai_key"]
+os.environ["OPENAI_API_KEY"] = st.secrets["openai_key"]
 # Set up logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
