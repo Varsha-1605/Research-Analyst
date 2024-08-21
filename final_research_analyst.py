@@ -527,8 +527,8 @@ from streamlit_option_menu import option_menu
 import base64
 
 # Download NLTK data
-nltk.download('punkt')
-nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('stopwords')
 
 # Set up logging
 logger = logging.getLogger(__name__)
