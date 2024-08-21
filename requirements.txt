@@ -143,7 +143,7 @@ urllib3
 unstructured
 faiss-cpu 
 textblob
-
+streamlit_option_menu
 wordcloud
 
 
