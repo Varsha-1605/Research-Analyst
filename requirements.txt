@@ -142,7 +142,7 @@ requests
 urllib3
 unstructured
 faiss-cpu 
-
+textblob
 
 
 
